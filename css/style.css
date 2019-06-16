@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Mali:300,400,600,700|Roboto&display=swap&subset=latin-ext');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    margin: 50px auto;
+}
+
+.quoteArea {
+    margin: 15px 80px 25px 100px;
+}
+
+.borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../img/border.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(../img/border.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(../img/border.png) 30 round;
+   
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+p {
+    font-family: 'Mali', cursive;
+}
+
+.modal-content {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #000;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.modal-content p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.modal_content ul li {
+    list-style-type: circle;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
